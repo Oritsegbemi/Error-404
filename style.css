@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px rgb(78, 78, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: rgb(138, 138, 214);
+    color: white;
+}
+.icon{
+    justify-self: center;
+    font-size: 80px;   
+}
+.text{
+    line-height: 2em;
+
+}
+/* .HP{
+    background-color: white;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    justify-self: center;
+    border: none;
+    cursor: pointer;
+    color: rgb(138, 138, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+} */
